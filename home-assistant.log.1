@@ -1,0 +1,60 @@
+2022-06-01 11:49:49 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:49:49 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:49:49 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:54 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [1874128824] Received invalid command: hacs/subscribe
+2022-06-01 11:49:56 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Color 0x459c561' for yeelight integration not ready yet: Failed to read from the socket at 192.168.3.61:55443: [Errno 113] Connect call failed ('192.168.3.61', 55443).; Retrying in background
+2022-06-01 11:50:50 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Mi Hub for alarm_control_panel
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 335, in async_setup
+    result = await component.async_setup_entry(hass, self)
+  File "/usr/src/homeassistant/homeassistant/components/alarm_control_panel/__init__.py", line 113, in async_setup_entry
+    return await component.async_setup_entry(entry)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 157, in async_setup_entry
+    raise ValueError("Config entry has already been setup!")
+ValueError: Config entry has already been setup!
+2022-06-01 11:50:50 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Mi Hub for light
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 335, in async_setup
+    result = await component.async_setup_entry(hass, self)
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 580, in async_setup_entry
+    return await component.async_setup_entry(entry)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 157, in async_setup_entry
+    raise ValueError("Config entry has already been setup!")
+ValueError: Config entry has already been setup!
+2022-06-01 11:50:50 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Mi Hub for sensor
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 335, in async_setup
+    result = await component.async_setup_entry(hass, self)
+  File "/usr/src/homeassistant/homeassistant/components/sensor/__init__.py", line 240, in async_setup_entry
+    return await component.async_setup_entry(entry)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 157, in async_setup_entry
+    raise ValueError("Config entry has already been setup!")
+ValueError: Config entry has already been setup!
+2022-06-01 11:50:50 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Mi Hub for switch
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 335, in async_setup
+    result = await component.async_setup_entry(hass, self)
+  File "/usr/src/homeassistant/homeassistant/components/switch/__init__.py", line 81, in async_setup_entry
+    return await component.async_setup_entry(entry)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 157, in async_setup_entry
+    raise ValueError("Config entry has already been setup!")
+ValueError: Config entry has already been setup!
+2022-06-01 11:50:52 ERROR (MainThread) [homeassistant.config_entries] Cannot find integration xiaomi_gateway3
+2022-06-01 11:51:37 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:51:37 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:51:37 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_miot_raw which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-06-01 11:51:37 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_gateway3 which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
